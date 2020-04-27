@@ -1,0 +1,31 @@
+/* Untuk Desktop */
+@media all and (min-width: 1000px) {
+  .top-wrapper h1{
+    font-size: 36px;
+  }
+  .menu-icon {
+    visibility: hidden;
+  }	
+}
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .top-wrapper h1{
+    font-size: 32px;
+  }
+  .menu-icon {
+    visibility: hidden;
+  }	
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+    visibility: visible;
+  }
+
+}
